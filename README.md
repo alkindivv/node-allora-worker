@@ -32,15 +32,10 @@ sudo apt install python3-pip
 pip3 --version
 ```
 
-## Install check
-
-````console
-docker -v
-```
-*if the output is similar to the one below, skip this step and continue to the next one!
-`Docker version 27.1.2, build d01f264`
+**if Docker already installed in your server, skip this step and continue to the next one**
 
 ## Install Docker
+
 ```console
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
@@ -56,7 +51,7 @@ curl -L "https://github.com/docker/compose/releases/download/"$VER"/docker-compo
 
 chmod +x /usr/local/bin/docker-compose
 docker-compose --version
-````
+```
 
 # Install Go
 
