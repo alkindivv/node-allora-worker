@@ -32,18 +32,15 @@ sudo apt install python3-pip
 pip3 --version
 ```
 
-## Install Docker
-
-**if you had other node running using docker then SKIP THIS STEP!**
-
-## Docker check
+## Install check
 
 ````console
 docker -v
-# if the output is similar to the one below, skip this step and continue to the next one!
-`Docker version 27.1.2, build d01f264`
 ```
+*if the output is similar to the one below, skip this step and continue to the next one!
+`Docker version 27.1.2, build d01f264`
 
+## Install Docker
 ```console
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
