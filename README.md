@@ -17,7 +17,6 @@
 ## Install dependecies
 
 ```console
-# Install Packages
 sudo apt update & sudo apt upgrade -y
 
 sudo apt install tilde ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev curl git wget make jq build-essential pkg-config lsb-release libssl-dev libreadline-dev libffi-dev gcc screen unzip lz4 -y
@@ -26,7 +25,6 @@ sudo apt install tilde ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev li
 ## Install Python3
 
 ```console
-# Install Python3
 sudo apt install python3
 python3 --version
 
@@ -36,7 +34,10 @@ pip3 --version
 
 ## Install Docker
 
-**if you had other node running using docker then SKIP THIS STEP! and continue to next step**
+_note_
+
+**if you had other node running using docker then SKIP THIS STEP!**
+**and continue to next step**
 
 ```console
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
