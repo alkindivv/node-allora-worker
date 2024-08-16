@@ -34,10 +34,7 @@ pip3 --version
 
 ## Install Docker
 
-_Note_
-
 **if you had other node running using docker then SKIP THIS STEP!**
-**and continue to next step**
 
 ## Docker check
 
@@ -45,6 +42,7 @@ _Note_
 docker -v
 # if the output is similar to the one below, skip this step and continue to the next one!
 `Docker version 27.1.2, build d01f264`
+```
 
 ```console
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
