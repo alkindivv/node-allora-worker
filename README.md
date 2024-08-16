@@ -117,7 +117,7 @@ tilde config.json
 {
     "wallet": {
         "addressKeyName": "testkey",
-        "addressRestoreMnemonic": "Seed Phrase", // replace your seed here
+        "addressRestoreMnemonic": "Seed Phrase",
         "alloraHomeDir": "",
         "gas": "1000000",
         "gasAdjustment": 1.0,
@@ -203,4 +203,4 @@ docker compose logs -f updater
 # updater-basic-eth-pred  | Response content is '0'
 ```
 
-# You are going to receive points in the [dashboard](https://app.allora.network/points/leaderboard) in the next few hours
+**You are going to receive points in the [dashboard](https://app.allora.network/points/leaderboard) in the next few hours**
