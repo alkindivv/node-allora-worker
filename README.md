@@ -12,7 +12,7 @@
 # Install Packages
 sudo apt update & sudo apt upgrade -y
 
-sudo apt install ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev curl git wget make jq build-essential pkg-config lsb-release libssl-dev libreadline-dev libffi-dev gcc screen unzip lz4 -y
+sudo apt install tilde ca-certificates zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev curl git wget make jq build-essential pkg-config lsb-release libssl-dev libreadline-dev libffi-dev gcc screen unzip lz4 -y
 ```
 
 ## Install Python3
@@ -28,8 +28,9 @@ pip3 --version
 
 ## Install Docker
 
+**if you had other node running using docker then SKIP THIS STEP! and continue to next step**
+
 ```console
-# if you had other node running using docker then SKIP THIS STEP! and continue to next step
 # Install Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
@@ -92,34 +93,21 @@ allorad keys add testkey
 
 ## Install Worker
 
-````console
+```console
 # Install
 cd $HOME && git clone https://github.com/allora-network/basic-coin-prediction-node
 
 cd basic-coin-prediction-node
+```
 
-* save wallet name for next steps
-
-#
-
-# 3 Topic Workers using Basic-Price-Prediction model
-## Install & Run Worker
-
-### 1- Clone worker
-```console
-cd $HOME
-git clone https://github.com/allora-network/basic-coin-prediction-node
-cd basic-coin-prediction-node
-````
-
-### 2- Config Worker
+## Config Worker
 
 ```console
 # Remove config file
 rm -rf config.json
 
 # Create new config file
-nano config.json
+tilde config.json
 ```
 
 **Paste below code in it**
@@ -174,7 +162,7 @@ nano config.json
 
 Ctrl+X+Y+Enter to save & exit
 
-### 3- Run Worker
+## Run Worker
 
 ```console
 chmod +x init.config
@@ -187,7 +175,7 @@ chmod +x init.config
 docker compose up -d --build
 ```
 
-### 4- Check logs
+## Check logs
 
 Containers:
 
