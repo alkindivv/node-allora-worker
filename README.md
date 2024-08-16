@@ -76,14 +76,14 @@ allorad version-
 
 ## Add Wallet
 
-- You can use your keplr seed-phrase to recover your wallet or create a new one
+- You can use your keplr seed-phrase to `recover your wallet` or `create a new one`
 
 ```console
 # Recover your wallet with seed-phrase
 allorad keys add testkey --recover
 ```
 
-- or
+- `or`
 
 ```console
 # Create a new wallet
