@@ -1,8 +1,16 @@
 <h1 align="center">Allora Network Point Program</h1>
 
-> - Create a new wallet in Keplr
+## Get Faucet
+
+### 1. Connect to Allora [dashboard](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImZjNzFjMTI0LTE3OTEtNGYxYS1hOWY3LTgwZDdmZWEyNjBjMiJ9) to find your Allora address
+
 >
-> - Connect to the on-chain Point Program [Dashboard](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImZjNzFjMTI0LTE3OTEtNGYxYS1hOWY3LTgwZDdmZWEyNjBjMiJ9)
+
+### 2. You can add Allora network to Keplr [here](https://explorer.edgenet.allora.network/wallet/suggest)
+
+>
+
+### 3. Get uAllo faucet [here](https://faucet.testnet-1.testnet.allora.network/)
 
 <h1 align="center">Price Prediction Worker Node</h1>
 
