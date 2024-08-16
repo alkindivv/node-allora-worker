@@ -158,7 +158,7 @@ tilde config.json
 }
 ```
 
-Ctrl+X+Y+Enter to save & exit
+- Ctrl+S+Q to save & exit
 
 ## Run Worker
 
