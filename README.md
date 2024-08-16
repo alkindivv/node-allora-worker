@@ -32,9 +32,9 @@ sudo apt install python3-pip
 pip3 --version
 ```
 
-**if Docker already installed in your server, skip this step and continue to the next one**
-
 ## Install Docker
+
+**if Docker already installed in your server, skip this step and continue to the next one**
 
 ```console
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
