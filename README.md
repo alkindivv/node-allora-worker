@@ -83,7 +83,7 @@ allorad version-
 allorad keys add testkey --recover
 ```
 
-# or
+- or
 
 ```console
 # Create a new wallet
