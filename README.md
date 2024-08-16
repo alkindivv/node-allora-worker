@@ -85,11 +85,15 @@ allorad keys add testkey
 
 ## Get Faucet
 
-> Connect to Allora [dashboard](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImZjNzFjMTI0LTE3OTEtNGYxYS1hOWY3LTgwZDdmZWEyNjBjMiJ9) to find your Allora address
+### Connect to Allora [dashboard](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImZjNzFjMTI0LTE3OTEtNGYxYS1hOWY3LTgwZDdmZWEyNjBjMiJ9) to find your Allora address
+
 >
-> You can add Allora network to Keplr [here](https://explorer.edgenet.allora.network/wallet/suggest)
+
+### You can add Allora network to Keplr [here](https://explorer.edgenet.allora.network/wallet/suggest)
+
 >
-> Get uAllo faucet [here](https://faucet.testnet-1.testnet.allora.network/)
+
+### Get uAllo faucet [here](https://faucet.testnet-1.testnet.allora.network/)
 
 ## Install Worker
 
