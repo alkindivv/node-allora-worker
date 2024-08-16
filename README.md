@@ -4,11 +4,13 @@
 
 >
 
-2. You can add Allora network to Keplr [here](https://explorer.edgenet.allora.network/wallet/suggest)
+3. Get uAllo faucet [here](https://faucet.testnet-1.testnet.allora.network/)
 
 >
 
-3. Get uAllo faucet [here](https://faucet.testnet-1.testnet.allora.network/)
+3. You can check Allora network explorer [here](https://explorer.testnet-1.testnet.allora.network/allora-testnet-1)
+
+>
 
 <h1 align="center">Price Prediction Worker Node</h1>
 
