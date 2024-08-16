@@ -1,5 +1,8 @@
 <h1 align="center">Allora Network Point Program</h1>
 
+Donate link:
+[![donate](https://img.shields.io/badge/-buy%20me%20a%20coffee-orange)](https://www.paypal.me/alkindivv)
+
 1. Connect to Allora [dashboard](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImZjNzFjMTI0LTE3OTEtNGYxYS1hOWY3LTgwZDdmZWEyNjBjMiJ9) to find your Allora address
 
 >
