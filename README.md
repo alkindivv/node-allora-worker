@@ -65,7 +65,7 @@ git clone https://github.com/allora-network/allora-chain.git
 
 cd allora-chain && make all
 
-allorad version
+allorad version-
 ```
 
 ## Add Wallet
