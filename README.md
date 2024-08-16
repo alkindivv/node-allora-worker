@@ -39,7 +39,6 @@ pip3 --version
 **if you had other node running using docker then SKIP THIS STEP! and continue to next step**
 
 ```console
-# Install Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
@@ -90,18 +89,6 @@ allorad keys add testkey --recover
 # Create a new wallet
 allorad keys add testkey
 ```
-
-## Get Faucet
-
-### Connect to Allora [dashboard](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImZjNzFjMTI0LTE3OTEtNGYxYS1hOWY3LTgwZDdmZWEyNjBjMiJ9) to find your Allora address
-
->
-
-### You can add Allora network to Keplr [here](https://explorer.edgenet.allora.network/wallet/suggest)
-
->
-
-### Get uAllo faucet [here](https://faucet.testnet-1.testnet.allora.network/)
 
 ## Install Worker
 
