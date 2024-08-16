@@ -34,7 +34,7 @@ pip3 --version
 
 ## Install Docker
 
-**if Docker already installed in your server, skip this step and continue to the next one**
+**IF `DOCKER` ALREADY INSTALLED IN YOUR SERVER, SKIP THIS STEP AND CONTINUE TO THE NEXT ONE**
 
 ```console
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
