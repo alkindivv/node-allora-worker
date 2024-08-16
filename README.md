@@ -93,7 +93,6 @@ allorad keys add testkey
 ## Install Worker
 
 ```console
-# Install
 cd $HOME && git clone https://github.com/allora-network/basic-coin-prediction-node
 
 cd basic-coin-prediction-node
@@ -109,7 +108,7 @@ rm -rf config.json
 tilde config.json
 ```
 
-**Paste below code in it**
+**Paste below code in `config.json`**
 
 - Replace your wallet `Seed Phrase`
 - `addressKeyName` was set as testkey since we choose it in step: Add Wallet
@@ -118,7 +117,7 @@ tilde config.json
 {
     "wallet": {
         "addressKeyName": "testkey",
-        "addressRestoreMnemonic": "Seed Phrase",
+        "addressRestoreMnemonic": "Seed Phrase", // replace your seed here
         "alloraHomeDir": "",
         "gas": "1000000",
         "gasAdjustment": 1.0,
